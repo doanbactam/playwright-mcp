@@ -172,6 +172,27 @@ Click <code>Save</code>.
 </details>
 
 <details>
+
+<details>
+<summary>Kiro</summary>
+
+Follow the MCP Servers [documentation](https://kiro.dev/docs/mcp/). For example in `~/.kiro/settings/mcp.json`:
+
+```json
+{
+  "mcp": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ]
+    },
+  }
+}
+
+```
+</details>
+
 <summary>VS Code</summary>
 
 #### Click the button to install:
